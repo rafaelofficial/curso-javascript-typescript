@@ -28,13 +28,14 @@
             <p>Obesidade grau 3</p>
         </div>
         <h1>Calcule seu IMC</h1>
-        <form action="" method="post">
+        <form action="#" id="form" method="post">
             <label for="input-peso">Peso:</label>
-            <input type="text" id="input-peso">
+            <input type="text" id="input-peso" name="peso">
             <label for="input-altura">Altura:</label>
-            <input type="text" id="input-altura">
-            <button>Calcular</button>
+            <input type="text" id="input-altura" name="altura">
+            <button class="btn" type="submit" onsubmit="getCalculoImc();">Calcular</button>
         </form>
+        <div id="resultado"></div>
     </section>
     <script type="text/javascript" src="./assets/js/main.js"></script>
 </body>

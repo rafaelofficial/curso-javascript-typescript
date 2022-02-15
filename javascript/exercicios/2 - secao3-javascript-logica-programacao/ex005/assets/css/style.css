@@ -29,7 +29,6 @@ body {
 
 div {
     display: block;
-    width: 50%;
     margin-bottom: 20px;
 }
 
@@ -42,10 +41,12 @@ div p {
 }
 
 #div-texto-imc {
+    width: 50%;
     float: left;
 }
 
 #div-texto-resultado {
+    width: 50%;
     float: right;
 }
 
@@ -77,4 +78,13 @@ form button {
 
 form button:hover {
     background: var(--primary-color);
+}
+
+.paragrafo-resultado, .bad {
+    background: rgb(109, 255, 182);
+    padding: 10px 20px;
+}
+
+.bad {
+    background: rgb(255, 150, 150);
 }
