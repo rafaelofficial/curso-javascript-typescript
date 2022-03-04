@@ -6,7 +6,9 @@
 
 body {
     font-family: 'Franklin Gothic ', 'Arial Narrow', Arial, sans-serif, monospace;
-    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/1691099b-ff71-4321-bd54-1bba46b0886b/f9a8cc08-aa7a-4b59-a7fc-318620935764/BR-pt-20220228-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+    color: #fff;
+    
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/1691099b-ff71-4321-bd54-1bba46b0886b/f9a8cc08-aa7a-4b59-a7fc-318620935764/BR-pt-20220228-popsignuptwoweeks-perspective_alpha_website_large.jpg"); 
     background-size: cover;
     background-position: top center;
 }
@@ -44,4 +46,31 @@ body {
     border: 2px solid #e50914;
     border-radius: 5px;
     cursor: pointer;
+}
+
+.section-one {
+    width: 800px;
+    height: 33px;
+    margin: 75px auto;
+    padding: 90px 20px; 
+    height: 10em;
+    position: relative 
+}
+
+.section-one h1 {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-size: 3.135rem;
+}
+
+.section-one h2 {
+    margin: 0;
+    position: absolute;
+    top: 75%;
+    left: 15%;
+    font-size: 2rem;
 }
